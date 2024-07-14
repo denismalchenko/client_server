@@ -1,0 +1,68 @@
+#wrapper {
+  width: 800px;
+  margin: 0 auto;
+  background: #ccc;
+  font-size: 14px;
+}
+
+.header {
+  height: 40px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.content {
+  display: flex;
+}
+
+.left_col {
+  flex: 1;
+  padding-left: 5px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 14px;
+}
+
+.right_col {
+  flex: 0 0 30%;
+  margin-left: -7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+  background: #bbb;
+  font-size: 14px;
+}
+
+.footer {
+  width: 800px;
+  height: 22px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.footer p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+}
+
+.audio-track {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  margin-left: -30px;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.track-name {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
